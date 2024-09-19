@@ -31,7 +31,6 @@ public class LoggingAspectV2 {
         log.info("After throwing advice method call, {}", joinPoint.getSignature());
     }
 
-//    @Around advice executes before and after the joinpoint.
 //    By calling proceed(), you are telling Spring to continue the intercepted method's execution,
 //    essentially allowing the method to "proceed" as it normally would.
 //    The method call that is intercepted by the aspect will not execute unless proceed() is invoked.
